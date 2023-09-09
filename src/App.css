@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&family=Roboto:wght@400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.container h1 {
+  font-family: 'Roboto';
+  font-size: 36px;
+}
+
+.form input[type=text] {
+  border: 2px solid gray;
+  outline: none;
+
+  height: 20px;
+  padding: 2px;
+  margin-top: 10px;
+}
+
+.form input[type = text]:focus {
+  border: 2px solid black;
+}
+
+.form input[type = text]:hover {
+  border: 2px solid black;
+}
+
+.ToDo {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 300px;
+  padding: 20px;
+  border-top: 4px solid #1F1F1F;
+  min-height: 100vh;
+}
+
+.ToDo li {
+  font-family: "Roboto Slab", serif;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.ToDo li:hover {
+  text-decoration: line-through;
+}
+
+.button {
+  border-radius: 5px;
+  padding: 0.25rem;
+  margin-left: 0.5rem;
+  height: 28px;
+  background-color:#D9DDDC;
+  transition: 0.25s;
+}
+
+.button:hover {
+  cursor: pointer;
+  color:red;
+}
